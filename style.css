@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'poppins';
+}
+
+body{
+ background-color: rgba(0, 89, 255, 0.144);
+}
+
+.container{
+    text-align:center;
+    height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    line-height: 40px;
+}
+
+div.name{
+    font-weight: bold;
+    font-size: 50px;
+    background: linear-gradient(
+            to right, #f32170, #ff6b08,
+             #cf23cf, #eedd44);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+}
+
+div.links img{
+    padding: 0 20px;
+    height: 25px;
+
+}
+
+div.tagline{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
